@@ -29,7 +29,7 @@ final class BowlingTest extends TestCase
             $g->roll($roll);
         }
 
-        $this->assertSame(
+        $this->assertEquals(
             $want,
             $g->getScore(),
             sprintf("got %d, want %d", $g->getScore(), $want)
