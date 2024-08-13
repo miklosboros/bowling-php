@@ -3,3 +3,4 @@
 ```
 ./phpunit --colors=always src
 ```
+TEST
